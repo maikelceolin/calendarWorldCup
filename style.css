@@ -28,10 +28,41 @@ ul {
     
 }
 
+#app h1 {
+    color: #f3df6d;
+    text-shadow: 1px 1px 1px #1f1f1f;
+    text-align: center;
+    margin-top: 40px;
+}
+
 header {
     display: flex;
     justify-content: center;
+    
 }
+
+.grupos {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: auto;
+    justify-content: center;
+    gap:10vw;
+    font-size: 2em;
+    color: #f3df6d;
+}
+
+.grupos a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}
+
+.grupos a:hover {
+    scale: 1.5;
+    transition: 0.5s;
+}
+
 
 main {
     display: flex;
@@ -115,7 +146,7 @@ main section h2 {
 
 @keyframes appear{
     0% {
-        transform:translateY(-45vh);
+        transform:translateX(100vh);
     }
     100% {
         transform:translateY(center);
